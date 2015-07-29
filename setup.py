@@ -9,10 +9,10 @@ def get_source_files():
 
 setup(
     name='django-ckeditor-updated',
-    version='4.4.5',
+    version='4.4.6',
     description='Django admin CKEditor integration.',
     long_description=open('README.rst', 'r').read() + open('AUTHORS.rst', 'r').read() + open('CHANGELOG.rst', 'r').read(),
-    author='Piotr Malinski',
+    author='Piotr Malinski',4
     author_email='riklaunim@gmail.com',
     url='https://github.com/riklaunim/django-ckeditor',
     packages=find_packages(exclude=["*.demo"]),
